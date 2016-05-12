@@ -1,0 +1,45 @@
+main: esPVP\main
+name: esPVP
+version: "2.0α"
+api: [1.13.0]
+author: ogiwara
+description: 個人戦に特化したPVPプラグイン
+commands:
+ joinpvp:
+  aliases: [jpvp]
+  description: "PVPを申し込む"
+  usage: /joinpvp でpvpに参加
+ startpvp:
+  aliases: [spvp]
+  description: "PVPを開始する"
+  usage: /startpvp でpvp開始
+ quitpvp:
+  aliases: [qpvp]
+  description: "PVPから離脱する"
+  usage: /quitpvp でpvpから離脱
+ toppvp:
+  aliases: [tpvp]
+  description: "PVPのMVPを表示"
+  usage: /toppvp でpvpのMVPを表示
+ endpvp:
+  aliases: [epvp]
+  description: "PVPを強制終了"
+  usage: /endpvp でpvpを強制終了
+  permission: "endpvp.command"
+ rulepvp:
+  aliases: [rpvp]
+  description: "PVPのルールを表示"
+  usage: /rulepvp でpvpのルールを表示
+ infopvp:
+  aliases: [ipvp]
+  description: "PVPの情報を表示"
+  usage: /infopvp でpvpの情報を表示
+ setpvp:
+  description: "PVPの設定を行う"
+  usage: /setpvp help　で、設定方法を確認して下さい
+  permission: "setpvp.command"
+ permissions:
+  endpvp.command:
+   default: op
+  setpvp.command:
+   default: op

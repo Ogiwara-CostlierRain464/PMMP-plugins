@@ -1,0 +1,7 @@
+main: FroatText\main
+name: FroatText
+version: "for OGI"
+api: [1.13.0,1,14.0]
+load: POSTWORLD
+auther: ogiwara
+description: 文字を浮かばせるプラグイン

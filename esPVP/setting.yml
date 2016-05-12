@@ -1,0 +1,20 @@
+---
+life: 4
+pvpplace: pvp
+helmet: "298"
+chestplate: "299"
+leggings: "300"
+boots: "301"
+item1: "1,0,64"
+item2: "261,0,1"
+item3: "262,0,64"
+item4: "322,0,2"
+prizemoney: 1500
+/quitpenalty: 50
+quiteventpenalty: 300
+list1: '<default>: world 100,100,100'
+placesum: 1
+silent: false
+list2: '<pvp>: pvp 148,68,168'
+list3: '<nether>: nether 120,62,135'
+...

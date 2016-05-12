@@ -1,0 +1,15 @@
+main: JoinQuit\main
+name: JoinQuit
+version: "1.0 Vancouver"
+api: [1.13.0,1,14.0]
+auther: ogiwara
+description: JoinEventとQuitEvent時の処理のカスタム
+commands:
+ jq:
+  aliases: [setjq,jp]
+  description: "JoinQuitの設定"
+  usage: /jq <help/?|subcommand>
+  permission: "jq.command"
+ permissions:
+  jq.command:
+   default: op

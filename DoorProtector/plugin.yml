@@ -1,0 +1,19 @@
+name: DoorProtector
+main: DoorProtector\main
+version: "1.5 api"
+api: [1.13.0,1.14.0]
+author: ogiwara
+description: ドア保護用プラグインです
+commands:
+ dp:
+  usage: /dp <subcommand>
+  aliases: [d]
+  description: DoorProtectionのコマンドです
+ setdp:
+  aliases: [setd]
+  usage: /setdp <subcommand>
+  description: DoorProtectionの設定用コマンドです
+  permission: setdp.command
+permissions:
+ setdp.command:
+  default: op

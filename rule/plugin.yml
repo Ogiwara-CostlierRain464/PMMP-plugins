@@ -1,0 +1,19 @@
+main: rule\main
+name: rule
+version: "1.0 MWcover"
+api: [1.13.0,1,14.0]
+auther: ogiwara
+description: /ruleで、サーバーのルールが確認できます
+commands:
+ rule:
+  aliases: [ru]
+  description: "ルールの確認"
+  usage: "/ruleで、ルールの確認"
+ setrule:
+  aliases: [setru]
+  description: "ルールの設定"
+  usage: "/setruleで、ルールの設定"
+  permission: "setrule.command"
+ permissions:
+  setrule.command:
+   default: op

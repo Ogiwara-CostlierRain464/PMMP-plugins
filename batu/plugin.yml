@@ -1,0 +1,30 @@
+main: ogiwara\batu\batu
+name: batu
+version: "1.3 NO_AI"
+api: [1.13.0,1,14.0]
+auther: ogiwara
+description: "荒らし対策プラグインです"
+commands:
+ batu:
+  aliases: [x,ba]
+  usage: /batu <名前>で、プレイヤーをロック
+  description: 荒らし対策
+  permission: "ba.command"
+ batulist:
+  aliases: [xlist,balist]
+  usage: /batulist [ページ番号]で、batulistを確認
+  description: batulist
+  permission: "balist.command" 
+ setbatu:
+  aliases: [setba,setx]
+  usage: /setbatuで、batuの設定
+  description: batuプラグインの設定
+  permission: "setba.command"
+ permissions:
+  setba.command:
+   default: op
+  ba.command:
+   default: op
+  balist.command:
+   default: op
+   

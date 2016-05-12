@@ -1,0 +1,11 @@
+name: ID
+main: ID\main
+version: "2.0alpha"
+api: [1.14.0]
+load: POSTWORLD
+author: ogiwara
+description: アイテムidの表示、検索
+commands:
+ id:
+  description: "アイテムidの表示、検索"
+  usage: " /id で、手に持っている物のid表示、/id <id>[damage][amount]でアイテムの付与"

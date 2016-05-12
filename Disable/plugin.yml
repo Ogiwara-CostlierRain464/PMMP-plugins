@@ -1,0 +1,15 @@
+main: Disable\main
+name: Disable
+version: "1.0"
+api: [1.13.0,1,14.0]
+auther: ogiwara
+description: プラグインを強制終了します
+commands:
+ disable:
+  aliases: [dis,exit]
+  description: "強制終了コマンド"
+  usage: "/disable or dis or exit <name> to diable spesific plugin."
+  permission: "disable.command"
+ permissions:
+  disable.command:
+   default: op

@@ -1,0 +1,11 @@
+main: hochi\main
+name: hochi
+version: "2.0 WMcover"
+api: [1.13.0,1,14.0]
+auther: ogiwara
+description: 放置機能を追加します
+commands:
+ hochi:
+  aliases: [ho]
+  description: "放置機能"
+  usage: /hochiで放置の開始、解除
