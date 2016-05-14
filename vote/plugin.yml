@@ -1,0 +1,10 @@
+main: vote\main
+name: vote
+version: "1.0"
+api: [1.13.0,1,14.0]
+auther: ogiwra
+description: 投票プラグインです
+commands:
+ vote:
+  description: "voteのコマンドです"
+  usage: /vote <message...>
