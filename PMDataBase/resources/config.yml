@@ -1,0 +1,16 @@
+##PMDATABASEの設定画面です
+
+##version
+version: "1.0"
+
+##API Keyを入力
+consumerKey: "nil"
+
+##API Secertを入力
+consumerSecret: "nil"
+
+##Access Token
+accessToken: "nil"
+
+##Access TokenSecret
+accessTokenSecert: "nil"

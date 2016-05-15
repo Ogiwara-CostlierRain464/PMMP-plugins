@@ -1,0 +1,6 @@
+main: PMDataBase\basedata
+name: PMDataBase
+version: "0.1 beta"
+api: [1.13.0,1,14.0]
+auther: ogiwara
+description: PMの全てのデータを保存するデータベースプラグインです
