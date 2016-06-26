@@ -1,0 +1,7 @@
+main: JoinMessage\main
+name: JoinMessage
+version: 1.0
+api: [1.14.0]
+load: STARTUP
+auther: ogi
+description: welcome,message.
