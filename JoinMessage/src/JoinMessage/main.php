@@ -18,7 +18,7 @@ class main extends PluginBase implements Listener{
 		$player = $event->getPlayer(); //イベントからプレイヤー取得
 		$name = $player->getName();
 		
-		$this->getServer()->broadcastMessage($name + "さんがやってきた!");
+		$this->getServer()->broadcastMessage($name . "さんがやってきた!");
 	}
 }
 
