@@ -1,0 +1,30 @@
+main: WelcomeMessage\main
+name: WelcomeMessage
+version: "2.1alpha"
+api: [1.13.0]
+load: STARTUP
+auther: ogi
+description: welcome,message.
+commands:
+ rule:
+  description: "show the rules of this server."
+  usage: /rule <ページ数> でルールが確認できます
+ tips:
+  description: "show the tips of this server."
+  usage: /tips で豆知識が確認できます
+ setrule:
+  permission: "setrule.command"
+  description: "set this server's rule"
+  usage: /setrule <ルールの番目＞　＜ルールの内容＞　でルールを追加、更新できます
+ settips:
+  permission: "settips.command"
+  description: "set this server's tips"
+  usage: /settips <豆知識の番目＞　＜豆知識の内容＞　でtipsを追加、更新できます。
+ hochi:
+  description: "放置機能"
+  usage: /hochi で放置を開始、解除できます
+ permissions:
+  setrule.command:
+   default: op
+  settips.command:
+   default: op

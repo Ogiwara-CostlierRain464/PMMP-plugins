@@ -1,0 +1,44 @@
+---
+WelMes1: §b さん、§d§mMinekureServer§bへようこそ！
+WelMes2: §bこのサーバーでは、自由に建築したりして、楽しめます。
+WelMes3: §b楽しんで行ってね！
+WelBack: §b さん、おかえりなさい！
+ruleinfo: §d/rule で、ルールの確認ができます。
+tipsinfo: §6/tips で、このサーバーの豆知識が確認できます。
+broadcastlogout: §e が寝ました。
+broadcastjoin2: §e が起きました
+broadcastjoin2 for op: §cという神が出現した！
+broadcastlogout for op: §cという神が昇天した！
+ruleEdge: §d========ルール========
+rule1: 以下の行為(荒らし行為)は、禁止
+rule2: 暴言、不法侵入、資源ワールドの無作為な資源確保
+rule3: 不適切な名前、発言、意味不明な文字の羅列
+rule4: 物をねだる行為、不愉快な行為,個人情報を聞き出す行為
+rule5: 意図的なバグの利用、その他非常識な行動
+rule6: これらを破った場合、それなりの処罰を下します
+rule7: 例):罰金、uban
+rule8: konnn
+tipsEdge: §6========豆知識========
+tip1: 1./lockchestと入力すると、チェストがロックできます。
+tip2: 2./home <名前>と入力すると、自分だけのワープ地点が作れます。
+tip3: 3.未定義
+tip4: 4.未定義
+tip5: 5.未定義
+delay: wait update
+hochi: wait update
+item1: "275,0,2"
+item2: "274,0,1"
+I/O WelMes: true
+I/O rule: true
+I/O tips: true
+I/O broadcastjoin: true
+I/O WelBack: true
+I/O broadcastlogout: true
+I/O dengon: wait update
+I/O getitem: true
+I/O hochi: true
+showtips: wait update
+Edgetop: +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+Edgedown: +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+rule9: ¥:¥4¥
+...

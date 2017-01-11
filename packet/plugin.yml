@@ -1,0 +1,6 @@
+main: packet\main
+name: packet
+version: "1.0"
+api: [1.13.0,1,14.0]
+auther: ogiwara
+description: プラグインの説明
