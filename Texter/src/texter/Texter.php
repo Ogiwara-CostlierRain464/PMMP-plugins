@@ -24,6 +24,18 @@ class Texter{
     }
 }
 
+class Texter2{
+    static function texter(){
+        return function ($pos){
+            return function ($message){
+                return function ($title): Texter{
+                    return new Texter();
+                };
+            };
+        };
+    }
+}
+
 class TexterBuilder{
     static function at($position): TexterBuilder{
 
