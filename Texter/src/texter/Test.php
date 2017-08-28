@@ -12,5 +12,11 @@ class Test{
 
 
         $texte3 = Texter2::texter()("pos")("message")("title")->show();
+
+        $texter4 = Texter2::apply(function (Texter $t){
+            $t->message = "message";
+            $t->position = "pos";
+            $t->title = "title";
+        });
     }
 }

@@ -3,6 +3,10 @@ namespace texter;
 
 class Texter{
 
+    public $message;
+    public $position;
+    public $title;
+
     public static function newInstance(): Texter{
         return new Texter();
     }
@@ -33,6 +37,10 @@ class Texter2{
                 };
             };
         };
+    }
+
+    static function apply($apply){
+        $apply(new Texter());
     }
 }
 
