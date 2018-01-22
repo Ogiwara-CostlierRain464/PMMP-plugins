@@ -1,0 +1,6 @@
+main: skyblock\main
+name: skyblock
+version: "1.0"
+api: [1.13.0,1,14.0]
+auther: ogiwara
+description: skyblockプラグイン
